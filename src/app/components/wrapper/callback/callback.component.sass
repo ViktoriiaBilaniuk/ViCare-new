@@ -1,0 +1,148 @@
+$violet: #5d1263
+$rose: #ffbfeb
+$grey: #e1e1e1
+$screen-xxl-max:                   1920px
+$screen-xxl-min:                   1921px
+
+$screen-xl-max:                   1440px
+$screen-xl-min:                   1441px
+
+$screen-lg-max:                   1200px
+$screen-lg-min:                   1201px
+
+$screen-md-max:                   992px
+$screen-md-min:                   993px
+
+$screen-sm-max:                   768px
+$screen-sm-min:                   769px
+
+$screen-xs-max:                   480px
+$screen-xs-min:                   481px
+*
+  margin: 0px
+  padding: 0px
+  box-sizing: border-box
+  outline: none
+  font-family: FuturaBookC
+  transition: 0.2s ease all
+  -moz-transition: 0.2s ease all
+  -webkit-transition: 0.2s ease all
+.bottom
+  padding-top: 130px
+  padding-bottom: 150px
+  -webkit-box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69)
+  -moz-box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69)
+  box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69)
+  display: flex
+  justify-content: space-between
+  background-image: url('../../../../assets/images/back3.png')
+  background-repeat: no-repeat
+  background-size: contain
+  @media (max-width: $screen-md-max)
+    display: block
+    background-image: none
+    padding-bottom: 10px
+
+
+  #callback
+    padding: 10px 40px 0px 40px
+    margin: 30px 50px 30px 150px
+    width: 40%
+    border: 1px solid $grey
+    display: block
+    background-color: $grey
+    border-radius: 20px
+    @media (max-width: $screen-md-max)
+      width: 90%
+      margin: 0 auto
+      padding: 10px
+    p
+      font-size: 16px
+      width: 100%
+      text-align: center
+      margin-top: 10px
+      text-transform: uppercase
+      color: #bd77a7
+    .group
+      position: relative
+      margin-top: 28px
+      input
+        font-size: 18px
+        padding: 10px 10px 10px 5px
+        display: block
+        width: 100%
+        border: none
+        border-radius: 3px
+      input:focus
+        outline: none
+
+      label
+        color: #999
+        font-size: 18px
+        font-weight: normal
+        position: absolute
+        pointer-events: none
+        left: 5px
+        top: 10px
+      input:focus ~ label, input:valid ~ label
+        top: -20px
+        font-size: 14px
+        color: $violet
+
+      .bar
+        position: relative
+        display: block
+        width: 100%
+      .bar:before, .bar:after
+        content: ''
+        height: 2px
+        width: 0
+        bottom: 1px
+        position: absolute
+        background: $violet
+      .bar:after
+      input:focus ~ .bar:before, input:focus ~ .bar:after
+        width: 100%
+        transition: 0.2s all
+    input[type="submit"]
+      background: url('../../../../assets/images/email2.png') #FFF no-repeat  right
+      background-size: contain
+      color: transparent
+      display: block
+      height: 50px
+      border-radius: 50px
+      border: none
+      width: 50px
+      margin: 13px auto
+    input[type="submit"]:hover
+      transform: scale(1.15)
+      cursor: pointer
+    .error_message
+      text-align: center
+      padding-bottom: 10px
+      color: $violet
+  footer
+    width: 40%
+    display: block
+    padding: 70px 50px 60px 50px
+    @media (max-width: $screen-md-max)
+      width: 100%
+    .logo
+      text-align: center
+      margin-bottom: 15px
+      img
+        width: 300px
+      img:hover
+        cursor: pointer
+        transform: scale(1.15)
+    .follow
+      width: 100%
+      display: block
+      text-align: center
+      img
+        width: 26px
+        border-radius: 8px
+      img:hover
+        transform: scale(1.2)
+        cursor: pointer
+

@@ -1,0 +1,48 @@
+{
+	"products":[
+		{
+      "id": "1",
+			"name": "Гель для душу",
+      "picture": "assets/images/prod1.jpg",
+			"price": [160,265,320],
+      "description": "М'яка та бархатиста шкіра. Завдяки цінним біоактивним речовинам меду, які відмінно проникають в шкірні пори, гель усуває лущення і почервоніння шкіри, підтримує природний водний баланс, робить шкіру м'якою та бархатистою. Миюча основа гелю складається з м'яких ПАР на основі оливкової, кокосової, мигдальної олій, олії бабассу, а також натуральних амінокислот, що містяться в овочах і фруктах, — саркозина та глютамінової амінокислоти. Ці компоненти м'яко очистять шкіру, сприятимуть її зволоженню.",
+			"size": [150,250,300],
+			"ingradients": ["2", "3", "8"],
+			"composition": "Вода очищена (Aqua) , Настоянка гвоздики (Caryophyllus Aromaticus (Clove) Extract) , Настоянка ванілі (Vanilla Planifolia Bean Extract) , Гліцериди з оливкової олії (Sodium PEG-7 Olive Oil Carboxylate) , ПАР з кокосової олії (Cocamidopropyl Betaine (derived from coconut oil)) , ПАР з мигдальної олії (Sodium Sweetalmondamphoacetate) , Похідне кокосу та глутамінової амінокислоти (Sodium Cocoyl Glutamate) , Мед (Mellis (Honey)) , Водорозчинна олія макадамії (Macadamia Seed Oil Glycereth - 8 Esters) , Оцет яблучний (Malic Acetum) , Харчовий консервант Optiphen BD (Optiphen BD (food preservative)) , Бетаїн (з червоного буряка) (Betaine (derived from the red beet root)) , Водорозчинна олія авокадо (Avocado Oil Glycereth-8 Esters) , Настоянка кориці (Cinnamomum Zeylanicum Bark Extract) , Ефірна олія кориці (Cinnamomum Zeylanicum (Cinnamon) Essential Oil) , Ефірна олія лемонграссу (Cymbopogon Citratus (Lemongrass) Essential Oil) , Ефірна олія герані (Geranium Essential Oil)",
+			"apply": "Легкими масажними рухами нанести невелику кількість гелю на губку або безпосередньо на шкіру, після чого спінити, злегка потерти, потім змити водою."
+		},
+		{
+      "id": "2",
+			"name": "Молочко для рук і тіла ",
+      "picture": "assets/images/prod2.jpg",
+			"price": [270],
+      "description": "Завдяки екстракту пророслих зерен вівса, пшениці, кукурудзи й ячменю молочко стимулює в епідермісі вироблення колагену і еластину, зміцнює шкіру, усуває в'ялість та атонію. Шкіра насичується вологою, стає ніжною і сяючою. Кремова основа молочка — натуральні масла виноградних кісточок, ши, таману  — активізує синтез колагену, зміцнює і омолоджує шкіру, проникаючи в глибинні шари, насичує її вологою.",
+			"size": [250],
+			"ingradients": ["1", "5", "6"],
+			"composition": "Вода очищена (Aqua) , Настоянка ладану (Olibanum (Frankincense) Extract) , Екстракт пророслих зерен вівса, пшениці, ячменю, кукурудзи (Sprouted Grains of Wheat, Corn, Oats & Barley Extract) , Екстракт шавлії (Salvia Officinalis (Sage) Extract) , Екстракт шишок хмелю (Humulus lupulus (Hop) Cone Extract) , Екстракт дикого калгану (Potentilla Erecta (Common Tormentil) Root Extract) , Олія з кісточок винограду (Vitis Vinifera (Grape) Seed Oil) , Емульгатор на основі оливкової олії (Sorbitan Olivate & Glyceryl Oleate) , Масло ши (Butyrospermum Parkii (Shea) Butter) , Трояндова вода (Rosa Damascena Flower Water) , Спирт цетилстеариловий (Cetearyl Alcohol) , Гель Алое Вера (Aloe Barbadensis (Aloe Vera) Leaf Juice) , Алантоїн рослинний (Symphytum Officinale (Comfrey) Root Cell Extract) , Олія таману (Calophyllum Inophyllum (Tamanu) Seed Oil) , Харчовий консервант Optiphen BD (Optiphen BD (food preservative)) , Ефірна олія петітгрейну (Citrus Aurantium Amara (Petitgrain) Essential Oil) , Ефірна олія ялівцю (Juniperus Communis Wood Oil) , Ефірна олія соснової хвої (Pinus Sylvestris (Pine) Leaf Oil) , Ефірна олія м'яти перцевої (Mentha Piperita (Peppermint) Essential Oil) , Ефірна олія евкаліпту (Eucalyptus Globulus Leaf Oil)",
+			"apply": "Нанести молочко на чисту шкіру, втирати легкими масажними рухами до повного вбирання."
+		},
+		{
+      "id": "3",
+			"name": "Пілінг для тіла",
+      "picture": "assets/images/prod3.jpg",
+			"price": [270],
+      "description": "Еластичність та омолодження шкіри. Завдяки екстракту пророслих зерен і житнього солоду пілінг забезпечує повноцінне живлення і зволоження шкіри, насичує її вітамінами, активізує виробництво власного колагену і еластину, повертаючи шкірі гладкість тп пружність. Кремова основа пілінгу — натуральні масла ши, сезаму, таману — здатна глибоко проникати у шкіру, пом'якшувати й очищувати її, виводячи шкідливі продукти метаболізму, бруд та відмерлі клітини..",
+      "size": [250],
+      "ingradients": ["4", "10", "14"],
+			"composition": "Вода очищена (Aqua) , Спирт цетилстеариловий (Cetearyl Alcohol) , Настоянка ладану (Olibanum (Frankincense) Extract) , Екстракт пророслих зерен вівса, пшениці, ячменю, кукурудзи (Sprouted Grains of Wheat, Corn, Oats & Barley Extract) , Екстракт шавлії (Salvia Officinalis (Sage) Extract) , Екстракт шишок хмелю (Humulus lupulus (Hop) Cone Extract) , Екстракт дикого калгану (Potentilla Erecta (Common Tormentil) Root Extract) , Масло ши (Butyrospermum Parkii (Shea) Butter) , Олія сезаму (Sesamum Indicum Seed Oil) , Скраб мигдалю (Almond Shell Scrubami) , Емульгатор на основі оливкової олії (Sorbitan Olivate & Glyceryl Oleate) , Солод житній (Rye Malt) , М'ятна вода (Mentha Piperita (Peppermint) Leaf Water) , Гель Алое Вера (Aloe Barbadensis (Aloe Vera) Leaf Juice) , Олія таману (Calophyllum Inophyllum (Tamanu) Seed Oil) , Харчовий консервант Optiphen BD (Optiphen BD (food preservative)) , Ефірна олія петітгрейну (Citrus Aurantium Amara (Petitgrain) Essential Oil) , Ефірна олія ялівцю (Juniperus Communis Wood Oil) , Ефірна олія соснової хвої (Pinus Sylvestris (Pine) Leaf Oil) , Ефірна олія м'яти перцевої (Mentha Piperita (Peppermint) Essential Oil) , Ефірна олія евкаліпту (Eucalyptus Globulus Leaf Oil)",
+			"apply": "Невелику кількість пілінгу нанести на вологу шкіру масажними рухами, після чого змити великою кількістю води без мила."
+		},
+		{
+      "id": "4",
+			"name": "Пілінг-скраб для тіла ",
+      "picture": "assets/images/prod4.jpg",
+			"price": [155,220],
+			"description": "Завдяки високому вмісту масла персика (41%) пілінг-скраб глибоко проникає в нижні шари епітелію, живлячи і відновлюючи водний баланс шкіри. Шкіра набуває здатності зберігати вологу. Висока активність дикорослих лікарських трав покращує лімфодренаж та живлення клітин шкіри. Як наслідок, шкіра стає здоровою і виглядає молодше. Поєднання дикорослих трав та натуральних олій призводить до кращого засвоєння жиророзчинних вітамінів-антиоксидантів A та E, які активізують в епідермісі виробництво колагену, еластину і гіалуронової кислоти, при цьому підвищується пружність і еластичність шкіри.",
+			"size": [300,500],
+			"ingradients": ["7", "11", "16"],
+			"composition": "Сіль Сакського озера (Salt of Saky Lake) , Олія з кісточок персику (Prunus Persica Kernel Oil) , Олія з кісточок винограду (Vitis Vinifera (Grape) Seed Oil) , Лаванда (Lavandula (Lavender)) , Розмарин (Rosmarinus Officinalis) , Шавлія (Salvia Officinalis (Sage)) , Виноград (Vitis Vinifera (Grape)) , Біла глина (Bolus Alba (Kaolin)) , Карі (Curry) , Харчовий консервант Optiphen BD (Optiphen BD (food preservative)) , Ефірна олія герані (Geranium Essential Oil)",
+			"apply": "Нанести трохи скрабу на вологу шкіру, енергійно помасажувати, потім змити великою кількістю води без мила."
+		}
+	]
+}

@@ -1,0 +1,6 @@
+<div  class="main" >
+  <div *ngFor="let item of categories" class="category" [ngStyle]="{'background-image': 'url(' + item.image + ')'}" (click)="onSelect(item.url)">
+    <p>{{item.name}}</p>
+  </div>
+</div>
+<router-outlet></router-outlet>

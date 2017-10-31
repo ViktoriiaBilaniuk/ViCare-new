@@ -1,0 +1,12 @@
+<div class="content">
+  <router-outlet></router-outlet>
+  <ul class="ingradients">
+    <div class="ing">
+      <li *ngFor="let item of selectedIngradients" (click)="openCurrentIngradient(item)">
+        <div class="item">
+          <img src="{{item.picture}}" alt="">
+          <p>{{item.name}}</p>
+        </div>
+    </div>
+  </ul>
+</div>

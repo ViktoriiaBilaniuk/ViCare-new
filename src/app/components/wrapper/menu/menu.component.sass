@@ -1,0 +1,197 @@
+$violet: #5d1263
+$rose: #ffbfeb
+$grey: #e1e1e1
+
+$screen-xxl-max:                   1920px
+$screen-xxl-min:                   1921px
+
+$screen-xl-max:                   1440px
+$screen-xl-min:                   1441px
+
+$screen-lg-max:                   1200px
+$screen-lg-min:                   1201px
+
+$screen-md-max:                   992px
+$screen-md-min:                   993px
+
+$screen-sm-max:                   768px
+$screen-sm-min:                   769px
+
+$screen-xs-max:                   480px
+$screen-xs-min:                   481px
+
+@font-face
+  font-family: 'FuturaBookC'
+  src: url("../../../../assets/fonts/futura/FuturaBookC.ttf") format("ttf")
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  outline: none
+  transition: all 0.2s linear
+  font-family: 'FuturaBookC', serif
+  font-weight: 400
+.container
+  width: 1200px
+  margin: 0 auto
+  position: relative
+a:active, a:focus, a:hover, a:visited, button:focus
+  text-decoration: none
+  border: none
+.menu
+  display: flex
+  width: 100%
+  margin-left: 0
+  padding: 0px 40px 0px 40px
+  line-height: 3
+  background-color: white
+  -webkit-box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69)
+  -moz-box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69)
+  box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69)
+  position: fixed
+  z-index: 1000
+  .logo
+    @media (max-width: $screen-md-max)
+      display: none
+
+  &.close
+    display: none
+  img
+    width: 170px
+  nav
+    display: flex
+    width: 70%
+    justify-content: center
+    margin: 0 100px
+
+    @media (max-width: $screen-xl-max)
+      margin: 0 20px
+        width: 60%
+    a
+      justify-content: space-between
+      text-decoration: none
+      color: black
+      text-transform: uppercase
+      font-size: 13px
+      letter-spacing: 0.02em
+      padding: 30px 30px
+      @media (max-width: $screen-lg-max)
+        padding: 30px 10px
+    a:hover
+      color: #989898
+      cursor: pointer
+    a:focus
+      border-bottom: 2px solid $violet
+  .backet
+    background-color: transparent
+    color: black
+    border: none
+    margin-top: 36px
+    &:hover
+      border: none
+      cursor: pointer
+      color: $violet
+    &:hover + label
+      opacity: 1
+      transition: all 0.3s linear
+    img
+      width: 20px
+    span
+      font-size: 16px
+      vertical-align: super
+  label
+    position: absolute
+    opacity: 0
+    background: rgba(241, 223, 234, 0.65)
+    padding: 0px 11px
+    border-radius: 10px
+    line-height: 32px
+    top: 32px
+    right: 110px
+    font-size: 14px
+.mobile-menu-bar
+  position: absolute
+  width: 100%
+  background-color: white
+  display: flex
+  justify-content: space-between
+  padding-top: 5%
+  .mobile-bar-logo
+    width: 20%
+    z-index: 1000
+    img
+      width: 100%
+      margin: 7px 20px
+  .btn
+    display: flex
+    width: 10%
+    right: 0
+    span
+      position: relative
+      width: 60%
+      height: 28%
+      right: 6%
+      top: 22%
+      z-index: 10000
+      .btn-line
+        position: absolute
+        color: black
+        width: 100%
+        height: 3px
+        background-color: $violet
+        &.btn-top
+          top: 0%
+        &.btn-mid
+          top: 39%
+        &.btn-bot
+          bottom: 0%
+    .active
+
+      .btn-line
+        transition: all 0.4s
+        &.btn-top
+          display: none
+        &.btn-mid-l
+          transform: rotate(45deg)
+        &.btn-mid-r
+          transform: rotate(-45deg)
+
+        &.btn-bot
+          display: none
+    &:active
+      &.btn-top
+        display: none
+      &.btn-mid
+
+
+
+.mobile-menu
+  position: absolute
+  width: 100%
+  height: 100%
+  background-color: white
+  z-index: 999
+  .mobileLogo
+    margin: 5%
+    img
+      width: 30%
+  nav
+    display: block
+    width: 100%
+    justify-content: center
+    margin: 0 10px
+    padding-top: 25%
+    a
+      display: block
+      width: 100%
+      text-decoration: none
+      color: black
+      text-transform: uppercase
+      font-size: 16px
+      letter-spacing: 0.02em
+      padding: 30px 30px
+
+
+
+
+

@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: FuturaBookC;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all; }
+
+.bottom {
+  padding-top: 130px;
+  padding-bottom: 150px;
+  -webkit-box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69);
+  -moz-box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69);
+  box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69);
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../../../../assets/images/back3.png");
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .bottom #callback {
+    padding: 10px 40px 0px 40px;
+    margin: 30px 50px 30px 150px;
+    width: 40%;
+    border: 1px solid #e1e1e1;
+    display: block;
+    background-color: #e1e1e1;
+    border-radius: 20px; }
+    .bottom #callback p {
+      font-size: 16px;
+      width: 100%;
+      text-align: center;
+      margin-top: 10px;
+      text-transform: uppercase;
+      color: #bd77a7; }
+    .bottom #callback .group {
+      position: relative;
+      margin-top: 28px; }
+      .bottom #callback .group input {
+        font-size: 18px;
+        padding: 10px 10px 10px 5px;
+        display: block;
+        width: 100%;
+        border: none;
+        border-radius: 3px; }
+      .bottom #callback .group input:focus {
+        outline: none; }
+      .bottom #callback .group label {
+        color: #999;
+        font-size: 18px;
+        font-weight: normal;
+        position: absolute;
+        pointer-events: none;
+        left: 5px;
+        top: 10px; }
+      .bottom #callback .group input:focus ~ label, .bottom #callback .group input:valid ~ label {
+        top: -20px;
+        font-size: 14px;
+        color: #5d1263; }
+      .bottom #callback .group .bar {
+        position: relative;
+        display: block;
+        width: 100%; }
+      .bottom #callback .group .bar:before, .bottom #callback .group .bar:after {
+        content: "";
+        height: 2px;
+        width: 0;
+        bottom: 1px;
+        position: absolute;
+        background: #5d1263; }
+      .bottom #callback .group input:focus ~ .bar:before, .bottom #callback .group input:focus ~ .bar:after {
+        width: 100%;
+        transition: 0.2s all; }
+    .bottom #callback input[type="submit"] {
+      background: url("../../../../assets/images/email2.png") #FFF no-repeat right;
+      background-size: contain;
+      color: transparent;
+      display: block;
+      height: 50px;
+      border-radius: 50px;
+      border: none;
+      width: 50px;
+      margin: 13px auto; }
+    .bottom #callback input[type="submit"]:hover {
+      transform: scale(1.15);
+      cursor: pointer; }
+  .bottom footer {
+    width: 40%;
+    display: block;
+    padding: 70px 50px 60px 50px; }
+    .bottom footer .logo {
+      text-align: center;
+      margin-bottom: 15px; }
+      .bottom footer .logo img {
+        width: 300px; }
+      .bottom footer .logo img:hover {
+        cursor: pointer;
+        transform: scale(1.15); }
+    .bottom footer .follow {
+      width: 100%;
+      display: block;
+      text-align: center; }
+      .bottom footer .follow img {
+        width: 26px;
+        border-radius: 8px; }
+      .bottom footer .follow img:hover {
+        transform: scale(1.2);
+        cursor: pointer; }
+
+/*# sourceMappingURL=callback.component.css.map */

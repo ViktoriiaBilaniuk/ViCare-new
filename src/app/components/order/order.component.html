@@ -1,0 +1,41 @@
+<div class="main">
+  <h2>Ваша корзина</h2>
+  <span class="close" (click)="closeWindow()">&#10006;</span>
+  <hr>
+  <div class="table">
+    <header>
+      <p id="title">Товар</p>
+      <p>Кількість</p>
+      <p>Вартість</p>
+    </header>
+
+    <div class="body">
+      <div class="product" *ngFor="let item of order.products">
+        <hr>
+        <span (click)="removeProductFromOrder(item.id)">&#10006;</span>
+        <img src="{{item.picture}}" alt="image">
+        <div class="name">
+          <p>{{item.name}}, {{item.size}} мл</p>
+        </div>
+        <div class="count">
+          <span class="more" (click)="plus(item)">&#9650;</span>
+          <input type="text" value="{{item.count}}">
+          <span class="less" (click)="minus(item)">&#9660;</span>
+        </div>
+        <h4 class="price">{{item.price}} грн</h4>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <hr>
+    <div class="finalprice">
+      <h4>Сума до оплати:</h4>
+      <h4> {{order.finalPrice}} грн</h4>
+    </div>
+    <button >
+      <a (click)="closeWindow()" [routerLink]="['/order']" >
+        Оформити замовлення
+      </a>
+    </button>
+  </div>
+</div>

@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "FuturaBook";
+  src: url("../../../assets/fonts/futuralightc.otf") format("otf"); }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "FuturaLightC"; }
+
+.main {
+  width: 100%;
+  z-index: 100; }
+  .main .first {
+    height: 780px;
+    background: url("../../../assets/images/face22.jpg") #FFF no-repeat right;
+    -webkit-box-shadow: inset 0px -11px 20px 0 #dedede;
+    -moz-box-shadow: inset 0px -11px 20px 0 #dedede;
+    box-shadow: inset 0px -11px 20px 0 #dedede; }
+    .main .first .text {
+      text-align: justify;
+      padding: 20% 0 0 8%;
+      width: 40%;
+      text-indent: 20px;
+      font-weight: 200; }
+  .main .second {
+    height: 750px;
+    background: url("../../../assets/images/roses33.jpg") #000 no-repeat fixed center;
+    background-size: cover; }
+    .main .second p {
+      top: 41%;
+      left: 10%;
+      font-size: 50px;
+      color: white; }
+  .main .third {
+    height: 700px;
+    background-size: contain;
+    background: url("../../../assets/images/face3.jpg") #FFF no-repeat right;
+    -webkit-box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69);
+    -moz-box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69);
+    box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69); }
+    .main .third .icons {
+      margin-left: 9%;
+      padding-top: 7%; }
+      .main .third .icons .icon {
+        display: inline-flex;
+        width: 60%; }
+        .main .third .icons .icon h4 {
+          line-height: 81px;
+          font-weight: 300; }
+        .main .third .icons .icon p {
+          display: inline-block;
+          font-size: 62px;
+          color: #5d1263;
+          padding-right: 16px; }
+
+/*# sourceMappingURL=main.component.css.map */

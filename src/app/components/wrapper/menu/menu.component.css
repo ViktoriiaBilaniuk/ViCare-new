@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "FuturaBookC";
+  src: url("../../../../assets/fonts/futura/FuturaBookC.ttf") format("ttf"); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.2s linear;
+  font-family: "FuturaBookC", serif;
+  font-weight: 400; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative; }
+
+a:active, a:focus, a:hover, a:visited, button:focus {
+  text-decoration: none;
+  border: none; }
+
+.menu {
+  display: flex;
+  width: 100%;
+  margin-left: 0;
+  padding: 0px 40px 0px 40px;
+  line-height: 3;
+  background-color: white;
+  -webkit-box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69);
+  -moz-box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69);
+  box-shadow: 3px 3px 20px 0 rgba(222, 222, 222, 0.69);
+  position: fixed;
+  z-index: 1000; }
+  .menu img {
+    width: 170px; }
+  .menu nav {
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: 0 100px; }
+    .menu nav a {
+      justify-content: space-between;
+      text-decoration: none;
+      color: black;
+      text-transform: uppercase;
+      font-size: 13px;
+      letter-spacing: 0.02em;
+      padding: 30px 50px; }
+    .menu nav a:hover {
+      color: #989898;
+      cursor: pointer; }
+    .menu nav a:focus {
+      border-bottom: 2px solid #5d1263; }
+  .menu .backet {
+    background-color: transparent;
+    color: black;
+    border: none;
+    margin-top: 36px; }
+    .menu .backet:hover {
+      border: none;
+      cursor: pointer;
+      color: #5d1263; }
+    .menu .backet:hover + label {
+      opacity: 1;
+      transition: all 0.3s linear; }
+    .menu .backet img {
+      width: 20px; }
+    .menu .backet span {
+      font-size: 16px;
+      vertical-align: super; }
+  .menu label {
+    position: absolute;
+    opacity: 0;
+    background: rgba(241, 223, 234, 0.65);
+    padding: 0px 11px;
+    border-radius: 10px;
+    line-height: 32px;
+    top: 32px;
+    right: 110px;
+    font-size: 14px; }
+
+/*# sourceMappingURL=menu.component.css.map */

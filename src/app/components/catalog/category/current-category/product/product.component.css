@@ -1,0 +1,133 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.4s; }
+
+.main {
+  margin: 0 auto;
+  background-image: url("../../../../../../assets/images/back33.png");
+  background-size: contain;
+  background-repeat: no-repeat; }
+  .main .product {
+    padding-top: 200px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    .main .product .image img {
+      height: 520px; }
+    .main .product .description {
+      width: 50%;
+      padding-left: 10%;
+      padding-top: 50px; }
+      .main .product .description h2 {
+        text-transform: uppercase;
+        font-family: FuturaMediumC;
+        text-align: center; }
+      .main .product .description form {
+        text-align: center;
+        padding: 40px 0px;
+        font-family: FuturaLightC; }
+        .main .product .description form label {
+          display: inline-block;
+          margin-right: 8px; }
+          .main .product .description form label:hover {
+            cursor: pointer;
+            opacity: 0.5; }
+          .main .product .description form label input:hover {
+            cursor: pointer; }
+          .main .product .description form label input {
+            display: inline-block; }
+        .main .product .description form .price-buy {
+          width: 100%;
+          padding: 10px 20px 40px 20px; }
+          .main .product .description form .price-buy .price {
+            display: inline-block;
+            width: 45%;
+            font-size: 25px;
+            font-weight: 400; }
+          .main .product .description form .price-buy button:hover {
+            background-color: #5d1263;
+            color: white;
+            cursor: pointer; }
+          .main .product .description form .price-buy button {
+            width: 45%;
+            height: 30px;
+            background-color: #ffbfeb;
+            border-width: 1px;
+            text-transform: uppercase;
+            border-radius: 30px; }
+      .main .product .description hr {
+        color: #999;
+        height: 1px;
+        clear: both;
+        background-image: url("../../../../../../assets/images/hr1.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center top;
+        border-style: none; }
+      .main .product .description .text {
+        font-size: 14px;
+        text-align: justify;
+        padding: 20px 0px;
+        text-indent: 20px;
+        font-family: FuturaLightC; }
+  .main .details {
+    width: 100%;
+    margin: 120px 0px; }
+    .main .details .nav {
+      width: 48%;
+      margin: 0 auto; }
+      .main .details .nav ul li:hover {
+        cursor: pointer;
+        background-color: rgba(216, 157, 190, 0.09);
+        border-radius: 30px; }
+      .main .details .nav ul .active {
+        cursor: pointer;
+        background-color: rgba(216, 157, 190, 0.09);
+        border-radius: 30px; }
+      .main .details .nav ul li {
+        display: inline-block;
+        padding: 10px 40px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: FuturaLightC; }
+    .main .details .content {
+      width: 86%;
+      margin: 0 auto;
+      width: 1200px;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      background-image: url("../../../../../../assets/images/leaf2.png");
+      height: 461px;
+      background-size: cover;
+      background-position: center;
+      margin-top: 10px; }
+  .main .submit {
+    z-index: 100;
+    top: 90%;
+    left: 79%;
+    margin-left: 0;
+    margin-top: 0;
+    text-align: center;
+    position: fixed;
+    width: 300px;
+    height: 53px;
+    border-radius: 8px;
+    -webkit-box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69);
+    -moz-box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69);
+    box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69);
+    background-color: #e1e1e1; }
+    .main .submit.hidden {
+      opacity: 0;
+      display: none; }
+  .main p {
+    font-family: FuturaBookC;
+    font-size: 20px;
+    line-height: 53px;
+    color: #5d1263;
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.69); }
+
+/*# sourceMappingURL=product.component.css.map */

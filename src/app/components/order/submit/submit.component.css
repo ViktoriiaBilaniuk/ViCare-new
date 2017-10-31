@@ -1,0 +1,187 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.4s; }
+
+.main {
+  padding: 130px 100px 70px 100px;
+  background: #efefef;
+  background-image: url("../../../../assets/images/backing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  text-align: justify;
+  overflow: hidden; }
+  .main h4 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: FuturaBookC;
+    color: #5d1263;
+    text-align: center; }
+  .main .edit {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px; }
+    .main .edit a {
+      font-family: FuturaLightC;
+      color: #5d1263;
+      display: block;
+      padding: 7px;
+      width: 15%;
+      margin-left: 88%; }
+      .main .edit a:hover {
+        cursor: pointer;
+        background-color: rgba(216, 157, 190, 0.09);
+        border-radius: 9px; }
+  .main form .sections {
+    display: flex;
+    justify-content: space-between; }
+    .main form .sections .first {
+      width: 47%; }
+      .main form .sections .first .group {
+        position: relative;
+        margin-top: 28px; }
+        .main form .sections .first .group input {
+          font-size: 18px;
+          padding: 10px 10px 10px 5px;
+          display: block;
+          width: 100%;
+          border: none;
+          border-radius: 3px; }
+        .main form .sections .first .group label {
+          display: block;
+          color: #999;
+          pointer-events: none;
+          font-family: FuturaBookC;
+          font-size: 18px;
+          font-weight: normal;
+          position: absolute;
+          left: 5px;
+          top: 10px; }
+        .main form .sections .first .group input:focus ~ label, .main form .sections .first .group input:valid ~ label {
+          top: -20px;
+          font-size: 14px;
+          color: #5d1263; }
+        .main form .sections .first .group .bar {
+          position: relative;
+          display: block;
+          width: 100%; }
+        .main form .sections .first .group .bar:before, .main form .sections .first .group .bar:after {
+          content: "";
+          height: 2px;
+          width: 0;
+          bottom: 1px;
+          position: absolute;
+          background: #5d1263; }
+        .main form .sections .first .group input:focus ~ .bar:before, .main form .sections .first .group input:focus ~ .bar:after {
+          width: 100%;
+          transition: 0.2s all; }
+      .main form .sections .first #labelForDropdown {
+        margin: 10px 0px 0px 5px;
+        font-family: FuturaBookC;
+        display: block;
+        font-size: 14px;
+        color: #5d1263;
+        position: absolute; }
+      .main form .sections .first #dropdown {
+        height: 41.6px;
+        background: white; }
+        .main form .sections .first #dropdown:hover {
+          cursor: pointer; }
+        .main form .sections .first #dropdown label {
+          position: relative;
+          pointer-events: auto; }
+          .main form .sections .first #dropdown label:focus {
+            cursor: pointer; }
+        .main form .sections .first #dropdown ul {
+          display: none;
+          position: absolute;
+          cursor: pointer;
+          background: white;
+          margin-top: 20px;
+          width: 620px;
+          text-align: left;
+          list-style: none;
+          padding-left: 20px;
+          z-index: 10; }
+          .main form .sections .first #dropdown ul li {
+            color: #5d1263;
+            padding: 6px;
+            border-top: 1px solid rgba(128, 128, 128, 0.11); }
+        .main form .sections .first #dropdown select {
+          padding-top: 25px;
+          width: 100%;
+          border: none;
+          border-radius: 3px; }
+    .main form .sections .second {
+      width: 47%;
+      height: 415px; }
+      .main form .sections .second .order h4 {
+        padding-bottom: 28px; }
+      .main form .sections .second .order hr {
+        color: #999;
+        height: 1px;
+        clear: both;
+        background-image: url("../../../../assets/images/hr1.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center top;
+        border-style: none; }
+      .main form .sections .second .order .table header {
+        margin: 0 20px; }
+        .main form .sections .second .order .table header #title {
+          width: 88%; }
+        .main form .sections .second .order .table header p {
+          font-family: FuturaLightC;
+          display: inline-block;
+          width: 10%; }
+      .main form .sections .second .order .table .body {
+        overflow: auto;
+        height: 300px; }
+        .main form .sections .second .order .table .body .product {
+          width: 100%; }
+          .main form .sections .second .order .table .body .product img {
+            height: 100px;
+            width: 100px;
+            vertical-align: middle;
+            margin-left: 20px;
+            display: inline-block; }
+          .main form .sections .second .order .table .body .product .name {
+            width: 67%;
+            display: inline-block;
+            vertical-align: middle; }
+            .main form .sections .second .order .table .body .product .name p {
+              font-family: FuturaLightC;
+              font-size: 16px;
+              display: inline-block; }
+          .main form .sections .second .order .table .body .product h4 {
+            width: 10%;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            text-transform: none; }
+      .main form .sections .second .order .footer .finalprice {
+        width: 100%;
+        text-align: right; }
+        .main form .sections .second .order .footer .finalprice h2 {
+          display: inline-block;
+          font-family: FuturaBookC;
+          font-size: 20px; }
+  .main form .button {
+    text-align: center; }
+    .main form .button input[type="submit"] {
+      width: 22%;
+      height: 58px;
+      background-color: #ffbfeb;
+      border-width: 1px;
+      text-transform: uppercase;
+      margin: 20px auto;
+      font-family: FuturaDemiC;
+      border-radius: 20px; }
+      .main form .button input[type="submit"]:hover {
+        background-color: #5d1263;
+        cursor: pointer;
+        color: white; }
+
+/*# sourceMappingURL=submit.component.css.map */

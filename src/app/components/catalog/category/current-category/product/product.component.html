@@ -1,0 +1,41 @@
+<div class="main">
+  <div class="product">
+    <div class="image">
+      <img src="{{product.picture}}" alt="image">
+    </div>
+    <div class="description">
+      <h2>{{product.name}}</h2>
+      <form>
+        <label class="form" *ngFor="let item of product.size; let index=index" (click)="choosePrice(index)">
+          <input  type="radio" name="size" value="item"  [checked]="!index">
+        {{item}}мл
+        </label>
+        <div class="price-buy">
+          <h3 class="price"> {{price}} грн</h3>
+          <button (click)="addProductToOrder(product)">Купити</button>
+        </div>
+      </form>
+      <hr>
+      <div class="text">
+        {{product.description}}
+      </div>
+      <hr>
+    </div>
+  </div>
+  <div class="details">
+    <div class="nav">
+      <ul>
+        <li routerLinkActive="active" [routerLink]="['./mainingradients']">Основні інградієнти</li>
+        <li routerLinkActive="active" [routerLink]="['./composition']">Повний склад</li>
+        <li routerLinkActive="active" [routerLink]="['./advice']">Спосіб застосування</li>
+      </ul>
+    </div>
+    <div class="content">
+      <router-outlet></router-outlet>
+    </div>
+
+  </div>
+  <div class="submit visible" [ngClass]="{'hidden':!visibility}">
+    <p>Товар додано до корзини!</p>
+  </div>
+</div>

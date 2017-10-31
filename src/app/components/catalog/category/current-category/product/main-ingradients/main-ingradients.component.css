@@ -1,0 +1,37 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.4s; }
+
+.content .ingradients {
+  width: 1200px; }
+  .content .ingradients .ing {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    padding-top: 89px;
+    list-style: none;
+    margin: 0 auto; }
+    .content .ingradients .ing li {
+      text-align: center;
+      width: 286px;
+      padding: 40px; }
+      .content .ingradients .ing li .item:hover {
+        cursor: pointer;
+        opacity: 0.5; }
+      .content .ingradients .ing li .item:hover p {
+        color: #949494; }
+      .content .ingradients .ing li .item {
+        text-decoration: none; }
+        .content .ingradients .ing li .item img {
+          height: 150px;
+          width: 150px;
+          margin-bottom: 10px;
+          border-radius: 50%; }
+        .content .ingradients .ing li .item p {
+          color: #5d1263;
+          font-family: FuturaLightC; }
+
+/*# sourceMappingURL=main-ingradients.component.css.map */

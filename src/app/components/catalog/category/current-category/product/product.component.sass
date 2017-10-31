@@ -1,0 +1,143 @@
+$violet: #5d1263
+$rose: #ffbfeb
+$grey: #e1e1e1
+
+
+@mixin box-shadow($amount: 9px 7px 20px 0px rgba(222, 222, 222, 0.69))
+  -webkit-box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69)
+  -moz-box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69)
+  box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69)
+
+*
+  padding: 0px
+  box-sizing: border-box
+  outline: none
+  transition: all .4s
+.main
+  margin: 0 auto
+  background-image: url("../../../../../../assets/images/back33.png")
+  background-size: contain
+  background-repeat: no-repeat
+  .product
+    padding-top: 200px
+    width: 1200px
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    .image
+      img
+        height: 520px
+    .description
+      width: 50%
+      padding-left: 10%
+      padding-top: 50px
+      h2
+        text-transform: uppercase
+        font-family: FuturaMediumC
+        text-align: center
+      form
+        text-align: center
+        padding: 40px 0px
+        font-family: FuturaLightC
+
+        label
+          display: inline-block
+          margin-right: 8px
+          &:hover
+            cursor: pointer
+            opacity: 0.5
+          input:hover
+            cursor: pointer
+          input
+            display: inline-block
+        .price-buy
+          width: 100%
+          padding: 10px 20px 40px 20px
+          .price
+            display: inline-block
+            width: 45%
+            font-size: 25px
+            font-weight: 400
+          button:hover
+            background-color: $violet
+            color: white
+            cursor: pointer
+          button
+            width: 45%
+            height: 30px
+            background-color: $rose
+            border-width: 1px
+            text-transform: uppercase
+            border-radius: 30px
+      hr
+        color: #999
+        height: 1px
+        clear: both
+        background-image: url("../../../../../../assets/images/hr1.png")
+        background-repeat: no-repeat
+        background-size: 100%
+        background-position: center top
+        border-style: none
+      .text
+        font-size: 14px
+        text-align: justify
+        padding: 20px 0px
+        text-indent: 20px
+        font-family: FuturaLightC
+  .details
+    width: 100%
+    margin: 120px 0px
+    .nav
+      width: 48%
+      margin: 0 auto
+      ul
+        li:hover
+          cursor: pointer
+          background-color: rgba(216, 157, 190, 0.09)
+          border-radius: 30px
+        .active
+          cursor: pointer
+          background-color: rgba(216, 157, 190, 0.09)
+          border-radius: 30px
+        li
+          display: inline-block
+          padding: 10px 40px
+          text-decoration: none
+          text-transform: uppercase
+          font-family: FuturaLightC
+    .content
+      width: 86%
+      margin: 0 auto
+      width: 1200px
+      list-style: none
+      display: flex
+      justify-content: space-between
+      background-image: url("../../../../../../assets/images/leaf2.png")
+      height: 461px
+      background-size: cover
+      background-position: center
+      margin-top: 10px
+
+  .submit
+    z-index: 100
+    top: 90%
+    left: 79%
+    margin-left: 0
+    margin-top: 0
+    text-align: center
+    position: fixed
+    width: 300px
+    height: 53px
+    border-radius: 8px
+    @include box-shadow
+    background-color: $grey
+    &.hidden
+      opacity: 0
+      display: none
+  p
+    font-family: FuturaBookC
+    font-size: 20px
+    line-height: 53px
+    color: $violet
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.69)
+

@@ -1,0 +1,19 @@
+<div class="wrapper">
+
+  <div class="main">
+    <div *ngFor="let item of products" class="product" >
+      <img (click)="setProduct(item)" src="{{item.picture}}" alt="product">
+      <div class="prod-desc">
+        <div class="name">{{item.name}}</div>
+        <div class="price">
+          <h3>{{item.price[0]}} грн</h3>
+        </div>
+        <button (click)="addProductToOrder(item)">Купити</button>
+      </div>
+    </div>
+    <div class="submit visible" [ngClass]="{'hidden':!visibility}">
+      <p>Товар додано до корзини!</p>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,73 @@
+<div class="main">
+  <div class="edit">
+    <a (click)="openOrder()">Редагувати замовлення</a>
+  </div>
+  <form action="">
+    <div class="sections">
+      <section class="first">
+        <h4>Ваші дані!</h4>
+        <div class="group">
+          <input type="text" name="name" required  maxlength="40" [(ngModel)]="name">
+          <span class="bar"></span>
+          <label>Ваше ім'я та прізвище</label>
+        </div>
+        <div class="group">
+          <input  type="email" name="email" required  maxlength="30" [(ngModel)]="email">
+          <span class="bar"></span>
+          <label>Ваша електронна пошта</label>
+        </div>
+        <div class="group">
+          <input type="tel" name="tel" pattern="0[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required [(ngModel)]="tel">
+          <span class="bar"></span>
+          <label>Номер телефону у форматі 0хх-ххх-хх-хх</label>
+        </div>
+        <label id="labelForDropdown">{{labelForDropdown}}</label>
+        <div id="dropdown" class="group">
+          <label class="open" (click)="openDropdown()">{{deliveryMethod}}</label>
+          <ul [ngStyle]="{'display': openList? 'block' : 'none'}" >
+            <li *ngFor="let item of list" (click)="chooseDeliveryMethod(item)">{{item.name}}</li>
+          </ul>
+
+        </div>
+        <div class="group">
+          <input type="text" name="address" required  maxlength="200" [(ngModel)]="address">
+          <span class="bar"></span>
+          <label>Адреса доставки</label>
+        </div>
+      </section>
+      <section class="second">
+        <div class="order">
+          <h4>Ваше замовлення</h4>
+          <hr>
+          <div class="table">
+            <header>
+              <p id="title">Товар</p>
+              <p>Вартість</p>
+            </header>
+            <div class="body">
+              <div class="product" *ngFor="let item of order.products">
+                <hr>
+                <img src="{{item.picture}}" alt="image">
+                <div class="name">
+                  <p>{{item.name}}, {{item.size}} мл х {{item.count}}</p>
+                </div>
+                <h4 class="price"> {{item.price}} грн</h4>
+              </div>
+            </div>
+          </div>
+          <div class="footer">
+            <hr>
+            <div class="finalprice">
+              <h2>Сума до оплати:</h2>
+              <h2> {{order.finalPrice}} грн</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="button">
+      <input type="submit" name="submit"  value="Підтвердити замовлення" >
+    </div>
+  </form>
+  <app-order (close)="openOrder()" [ngStyle]="{'display': visibility? 'block' : 'none'}"></app-order>
+</div>

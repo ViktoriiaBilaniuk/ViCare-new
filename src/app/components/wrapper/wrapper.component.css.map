@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,sBAAsB;EACpB,OAAO,EAAE,IAAI;;AACf,aAAa;EACX,OAAO,EAAE,EAAE",
+"sources": ["wrapper.component.sass"],
+"names": [],
+"file": "wrapper.component.css"
+}

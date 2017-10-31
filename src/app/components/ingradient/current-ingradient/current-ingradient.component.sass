@@ -1,0 +1,54 @@
+$violet: #5d1263
+$rose: #ffbfeb
+$grey: #e1e1e1
+@mixin border-radius($amount: 50%)
+  -moz-border-radius: $amount
+  -webkit-border-radius: $amount
+  border-radius: $amount
+@mixin box-shadow($amount: 9px 7px 20px 0px rgba(222, 222, 222, 0.69))
+  -webkit-box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69)
+  -moz-box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69)
+  box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69)
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  outline: none
+  transition: all 0.2s linear
+.main
+  position: fixed
+  background: #efefef
+  background-image: url("../../../../assets/images/backing.png")
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: bottom
+  z-index: 1000
+  top: 17%
+  bottom: 3%
+  left: 18%
+  right: 18%
+  text-align: justify
+  overflow: auto
+  border-radius: 30px
+  padding: 5%
+  @include box-shadow
+  span
+    position: absolute
+    right: 3%
+    top: 5%
+    font-size: 23px
+    &:hover
+      cursor: pointer
+      color: #9a9898
+  .name
+    text-align: center
+    margin-bottom: 27px
+    font-size: 18px
+    font-family: FuturaMediumC
+    color: $violet
+
+  .description
+    font-family: FuturaLightC
+    text-indent: 10px
+    line-height: 1.25
+

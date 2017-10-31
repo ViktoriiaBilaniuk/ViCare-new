@@ -1,0 +1,92 @@
+{
+	"products":[
+		{
+      "id": "1",
+			"name": "Пілінг-скраб для обличчя",
+      "picture": "assets/images/prod1.jpg",
+			"price": [202,260],
+      "description": "Для глибокого очищення й омолодження шкіри обличчя необхідно регулярне використання пілінг-скрабу. Скрабування — це нанесення спеціального косметичного засобу на шкіру з подальшим легким масажем, за рахунок чого відбувається глибоке очищення пор та м'яке видалення відмерлих клітин.Ця процедура стимулює утворення нових клітин епідермісу, сприяє оновленню верхнього шару шкіри на обличчі. З віком, коли процес ділення клітин сповільнюється, застосування пілінг-скрабу активізує обмін речовин і змушує клітини ділиться майже так само швидко, як в юності. Ось чому цей засіб особливо рекомендується для догляду за зрілою шкірою.Масаж зі скрабом не тільки посилює циркуляцію крові, але й підтягує контур обличчя, підвищує тонус за рахунок сукупного впливу активних компонентів формули і отшелушивающих мікрочастинок. Такий догляд дозволяє згладити нерівності шкірного покриву, а в деяких випадках і дрібні зморшки. Шкіра стає ніжною як оксамит.",
+			"size": [150,250],
+			"ingradients": ["4", "8", "21"],
+			"composition": "Вода очищена (Aqua) , Олія сезаму (Sesamum Indicum Seed Oil) , Рослинний емульгатор (Cetearyl Alcohol & Glyceryl Stearate & Potassium Palmitoyl Hydrolyzed Wheat Protein) , Скраб мигдалю (Almond Shell Scrubami) , Спирт цетилстеариловий (Cetearyl Alcohol) , ПАР з кокосової олії (Cocamidopropyl Betaine (derived from coconut oil)) , Солод житній (Rye Malt) , Екстракт пророслих зерен вівса, пшениці, ячменю, кукурудзи (Sprouted Grains of Wheat, Corn, Oats & Barley Extract) , Екстракт з листя шовковиці (Morus Alba (White Mulberry) Leaf Extract) , Екстракт шоломниці байкальської (Scutellaria Baicalensis (Baical Scullcap) Root Extract) , Екстракт з листя мучниці (Arctostaphylos Uva Ursi (Bearberry) Leaf Extract) , Харчовий консервант Optiphen BD (Optiphen BD (food preservative)) , Олія буріті (Mauritia Flexuosa (Buriti) Fruit Oil) , Композиція з натуральних ефірних олій пачулі, іланг-ілангу, ветівера та амброксана шавлії (Blend of Essential Oils of Pogostemon Cablin (Patchouli), Cananga Odorata (Ylang-Ylang), Chrysopogon Zizanioides (Vetiver) & Salvia (Sage) Ambroxan)",
+			"apply": "1-2 рази на тиждень кінчиками пальців нанесіть пілінг-скраб рівномірним шаром на очищену шкіру обличчя і шиї, уникаючи області навколо очей. Дайте засобу трохи вбратися, потім помасажуйте обличчя легкими рухами по лініях найменшого розтягування шкіри. Змийте великою кількістю теплої води. Після проведення пілінгу шкіра краще всього сприймає будь-які інші косметичні засоби для догляду."
+		},
+    {
+      "id": "2",
+      "name": "Вибілююча крем-маска серії «Морські водорості»",
+      "picture": "assets/images/prod1.jpg",
+      "price": [345],
+      "description": "Тьмяний колір обличчя та поява на ньому пігментних плям є першими ознаками вікових змін у шкірі. Затримати процеси старіння та покращити свій зовнішній вигляд можна за допомогою природніх засобів, при регулярному застосуванні натуральної косметики! Завдяки високої концентрації активних рослинних компонентів косметичні маски для обличчя здатні м’яко вибілювати шкіру, гальмувати створювання нових пігментних плям та усувати «землистий» колір обличчя.",
+      "size": [100],
+      "ingradients": ["3", "7", "20"],
+      "composition": "Вода очищена (Aqua) , Рослинний емульгатор (Cetearyl Glucoside & Cetearyl Alcohol) , Олія оливкова (Olea Europaea Fruit Oil) , Екстракт з листя мучниці (Arctostaphylos Uva Ursi (Bearberry) Leaf Extract) , Спирт цетилстеариловий (Cetearyl Alcohol) , Гідролат петрушки (Petroselinum Sativum (Parsley) Leaf / Root Hydrolat) , Екстракт з кори білої верби (Salix Alba (White Willow) Bark Extract) , Олія фісташкова (Pistacia Vera Seed Oil) , Олія з кісточок апельсину (Citrus Aurantium Dulcis (Orange) Seed Oil) , Екстракт з листя шовковиці (Morus Alba (White Mulberry) Leaf Extract) , Екстракт томату (Solanum Lycopersicum (Tomato) Fruit Extract) , Екстракт водоростей ламінарії, фукуса та спіруліни (Algae Extract) , Екстракт кореня солодцю (Glycyrrhiza Glabra (Licorice) Root Extract) , Екстракт грейпфруту (Citrus Grandis (Grapefruit) Seed Extract) , Харчовий консервант Optiphen BD (Optiphen BD (food preservative)) , Діоксид титану (Titanium Dioxide) , Гамма-орізанол з рисових висівок (Gamma Oryzanol) , Молочна кислота (Lactic Acid) , Композиція з натуральних ефірних олій мате, османтуса та давани (Blend of Mate, Osmanthus & Artemisia Pallens (Davanam) Essential Oils)",
+      "apply": "Нанести маску рівномірним шаром товщиною 1-2 мм на очищену шкіру обличчя, шиї та декольте. Через 15-30 хвилин видалити залишки маски косметичною серветкою, ватним диском або змити водою. При необхідності нанести зволожуючий засіб. Використовувати 1-2 рази на тиждень. Уникати потрапляння маски на слизові оболонки очей та губ."
+    },
+    {
+      "id": "3",
+      "name": "Альгінатна експрес-маска",
+      "picture": "assets/images/prod1.jpg",
+      "price": [555],
+      "description": "Альгінатна експрес-маска «Антистрес» є ефективним косметичним засобом для покращення стану шкіри. Надає шкірі особливу м’якість та бархатистість поверхні.Використання маски сприяє виведенню токсинів, зняттю запальних процесів та подразнень, усуненню слідів втоми і стресу. Завдяки активній мінералізації покращується зовнішній вигляд і колір шкіри.Маска здатна діяти не тільки не поверхневі, але й на глибокі шари шкіри, точніше на фібробласти, які відповідають за синтез колагену, еластину та глікозаміногліканів. В результаті значно підвищується тургор шкіри, її пружність та еластичність.",
+      "size": [1500],
+      "ingradients": ["6", "13", "19"],
+      "composition": "Вода очищена (Aqua) , Рослинний емульгатор (Cetearyl Glucoside & Cetearyl Alcohol) , Олія оливкова (Olea Europaea Fruit Oil) , Екстракт з листя мучниці (Arctostaphylos Uva Ursi (Bearberry) Leaf Extract) , Спирт цетилстеариловий (Cetearyl Alcohol) , Гідролат петрушки (Petroselinum Sativum (Parsley) Leaf / Root Hydrolat) , Екстракт з кори білої верби (Salix Alba (White Willow) Bark Extract) , Олія фісташкова (Pistacia Vera Seed Oil) , Олія з кісточок апельсину (Citrus Aurantium Dulcis (Orange) Seed Oil) , Екстракт з листя шовковиці (Morus Alba (White Mulberry) Leaf Extract) , Екстракт томату (Solanum Lycopersicum (Tomato) Fruit Extract) , Екстракт водоростей ламінарії, фукуса та спіруліни (Algae Extract) , Екстракт кореня солодцю (Glycyrrhiza Glabra (Licorice) Root Extract) , Екстракт грейпфруту (Citrus Grandis (Grapefruit) Seed Extract) , Харчовий консервант Optiphen BD (Optiphen BD (food preservative)) , Діоксид титану (Titanium Dioxide) , Гамма-орізанол з рисових висівок (Gamma Oryzanol) , Молочна кислота (Lactic Acid) , Композиція з натуральних ефірних олій мате, османтуса та давани (Blend of Mate, Osmanthus & Artemisia Pallens (Davanam) Essential Oils)",
+      "apply": "Очистіть шкіру обличчя очищаючим засобом. Щоб маска не торкалася брів та вій, нанесіть на них жирний крем. Рекомендується перед використанням маски нанести на обличчя сироватку «Вітамінний концентрат «Ліфтинг-ефект» або ж пептидну сироватку «Інтенсивна регенерація» — для більш глибокого проникнення активних речовин в усі шари шкіри."
+    },
+    {
+      "id": "4",
+      "name": "Крем-вершки демакіяж ",
+      "picture": "assets/images/prod1.jpg",
+      "price": [300],
+      "description": "",
+      "size": [150],
+      "ingradients": ["7", "14", "18"],
+      "composition": "Вода очищена (Aqua) , Олія з кісточок персику (Prunus Persica Kernel Oil) , Емульгатор на основі оливкової олії (Sorbitan Olivate & Glyceryl Oleate) , Вівсяне молочко (Avena Sativa (Oats) Sprouts Extract) , Екстракт пророслих зерен вівса, пшениці, ячменю, кукурудзи (Sprouted Grains of Wheat, Corn, Oats & Barley Extract) , Екстракт з листя ліщини (Corylus Avellana (Hazel) Leaf Extract) , Екстракт кінського каштану (Aesculus Hippocastanum (Horse Chestnut) Seed Extract) , Екстракт червоного винограду (Vitis Vinifera (Red Grape) Peel Extract) , Екстракт арніки (Arnica Montana Flower Extract) , Екстракт звіробою (Hypericum Perforatum (Tutsan) Extract) , Рослинний гліцерин (Glycerin) , Запашна вода ромашки (Chamomilla Recutita Flower Water) , Екстракт алое вера (Aloe Vera Extract) , Харчовий консервант Optiphen BD (Optiphen BD (food preservative)) , Композиція з натуральних ефірних олій пачулі, іланг-ілангу, ветівера та амброксана шавлії (Blend of Essential Oils of Pogostemon Cablin (Patchouli), Cananga Odorata (Ylang-Ylang), Chrysopogon Zizanioides (Vetiver) & Salvia (Sage) Ambroxan)",
+      "apply": "Нанесіть невелику кількість крему на ватний спонж і акуратними круговими рухами по масажних лініях протріть шкіру обличчя та шиї. Видаліть залишки крему вологим ватним диском або змийте теплою водою. Протріть шкіру тоніком для обличчя. Застосовуйте засіб вранці та ввечері."
+    },
+    {
+      "id": "5",
+      "name": "Зволожуючий денний крем «Ліфтинг-ефект»",
+      "picture": "assets/images/prod1.jpg",
+      "price": [534],
+      "description": "Підтримання водного балансу шкіри — одне з найбільш важливих завдань у догляді за шкірою обличчя. Це один з основних секретів збереження її молодості, свіжості й пружності. На нестачу вологи шкіра моментально реагує сухістю, в'ялістю, погіршенням кольору, появою зморшок і мікротріщин.Тьмяна, зневоднена та зів'яла шкіра може стати сяючою, здоровою і підтягнутою! Що для цього потрібно? Засіб, який створено самою природою для чудесного оздоровлення й омолоджування. Всі найефективніші натуральні інгредієнти зібрані у зволожуючому денному кремі «Ліфтинг-ефект» торгової марки White Mandarin.Денний крем з легкою шовковистою текстурою ідеально підходить для щоденного догляду за втомленою шкірою, яка страждає від нестачі вологи. Забезпечує оптимальне зволоження, підтяжку і захист шкіри протягом усього дня, надає їй здорове сяйво.",
+      "size": [200],
+      "ingradients": ["1", "10", "17"],
+      "composition": "Вода очищена (Aqua) , Олія оливкова (Olea Europaea Fruit Oil) , Рослинний емульгатор (Cetearyl Alcohol & Glyceryl Stearate & Potassium Palmitoyl Hydrolyzed Wheat Protein) , Сквалан (Squalane) , Водорозчинна олія макадамії (Macadamia Seed Oil Glycereth - 8 Esters) , Рослинний зволожувач (Hydrogenated Ethylhexyl Olivate & Hydrogenated Olive Oil Unsaponifiables) , Рослинний гліцерин (Glycerin) , Олія Моной де Таїті (Cocos Nucifera (Coconut) Oil & Gardenia Tahitensis (Tiare) Flower Extract) , Екстракт водоростей ламінарії, фукуса та спіруліни (Algae Extract) , Екстракт розмарину (Rosmarinus Officinalis Extract) , Екстракт шишок хмелю (Humulus lupulus (Hop) Cone Extract) , Екстракт хвощу польового (Eguisetum Arvense Extract) , Екстракт томату (Solanum Lycopersicum (Tomato) Fruit Extract) , Екстракт манго (Mangifera Indica (Mango) Fruit Extract) , Екстракт конюшини (Trifolium Pratense Extract) , Екстракт коренів левзеї (Rhaponticum Carthamoides Root Extract) , Екстракт вербени (Verbena Officinalis Extract) , Гамма-орізанол з рисових висівок (Gamma Oryzanol) , Харчовий консервант Optiphen BD (Optiphen BD (food preservative)) , Діоксид титану (Titanium Dioxide) , Рослинний амінокислотний комплекс (Aminotein) , Екстракт з кори сосни приморської (Pinus Pinaster (Maritime Pine) Bark Extract) , Алантоїн рослинний (Symphytum Officinale (Comfrey) Root Cell Extract) , Композиція з натуральних ефірних олій мате, османтуса та давани (Blend of Mate, Osmanthus & Artemisia Pallens (Davanam) Essential Oils)",
+      "apply": "Вранці наносіть кінчиками пальців невелику кількість крему на очищену шкіру обличчя та шиї по масажних лініях."
+    },
+    {
+      "id": "6",
+      "name": "Крем-мікроемульсія для контуру очей та губ",
+      "picture": "assets/images/prod1.jpg",
+      "price": [321],
+      "description": "З віком шкіра перестає достатньою мірою утримувати вологу. Поверхневий шар, який служить захисним бар'єром, стає значно тонше, в результаті шкіра інтенсивно втрачає таку необхідну їй вологість.Ознаки вікових змін найбільш помітні на шкірі навколо очей та губ. Це зумовлено відсутністю сальних протоків у цих зонах, а також частим впливом різних косметичних засобів при нанесенні та видаленні макіяжу.Ніжний крем-мікроемульсія для контуру очей та губ повертає тонус, пружність, еластичність шкірі в цій області.Усуває припухлості, темні круги і «гусячі лапки» під очима.",
+      "size": [100],
+      "ingradients": ["2", "15", "16"],
+      "composition": "Вода очищена (Aqua) , Масло з кісточок манго (Mangifera Indica (Mango) Seed Butter) , Рослинний емульгатор (Cetearyl Alcohol & Glyceryl Stearate & Potassium Palmitoyl Hydrolyzed Wheat Protein) , Олія з кісточок лайму (Citrus Aurantifolia (Lime) Seed Oil) , Амінопептиди (Amino-Peptide) , Спирт цетилстеариловий (Cetearyl Alcohol) , Олія камелії (Camellia Oleifera Seed Oil) , Хітозан (Chitosan) , Екстракт пророслих зерен вівса, пшениці, ячменю, кукурудзи (Sprouted Grains of Wheat, Corn, Oats & Barley Extract) , Екстракт кореня солодцю (Glycyrrhiza Glabra (Licorice) Root Extract) , Екстракт рути пахучої (Ruta Graveolens (Rue) Leaf / Root / Stem Extract) , Екстракт шкірки апельсина (Citrus Aurantium Dulcis (Orange) Peel Extract) , Екстракт гінкго білоба (Ginkgo Biloba Leaf Extract)",
+      "apply": "Легким постукуванням кінчиків пальців наносіть вранці та/або ввечері на чисту шкіру до застосування інших засобів, розподіляючи крем по повікам та губам."
+    },
+    {
+      "id": "7",
+      "name": "Маска-гідрогель",
+      "picture": "assets/images/prod1.jpg",
+      "price": [235],
+      "description": "Якщо застосовувати ліфтинг-маску регулярно, вона здатна призупиняти вікові зміни та значно покращувати зовнішній вигляд шкіри за рахунок дії правильно підібраних компонентів, які позитивно впливають на клітини.Маска є альтернативою косметологічним процедурам, націленим на підтяжку шкіри. Зменшує біологічний вік шкіри, моделює овал обличчя, розгладжує невеликі нерівності, забезпечує помітний та довготривалий ефект ліфтингу.",
+      "size": [120],
+      "ingradients": ["5", "9", "13"],
+      "composition": "Вода очищена (Aqua) , Запашна вода герані (Geranium Leaf / Flower Water) , Запашна вода лайму (Citrus Aurantifolia (Lime) Fruit Water) , Запашна вода іланг-ілангу (Cananga Odorata (Ylang-Ylang) Flower Water) , Запашна вода розмарину (Rosmarinus Officinalis Flower / Leaf / Stem Water) , Ксантанова камідь (Xanthan Gum) , Коньяк маннан (Brandy Mannan) , Вітамін C (Vitamin C) , Амінопептиди (Amino-Peptide) , Харчовий консервант Optiphen BD (Optiphen BD (food preservative)) , Алантоїн рослинний (Symphytum Officinale (Comfrey) Root Cell Extract) , Хлорофіл (Chlorophyll) , Екстракт водоростей ламінарії, фукуса та спіруліни (Algae Extract) , Гідролізат протеїнів квасолі (Hydrolyzed Bean Protein) , Екстракт пророслих зерен вівса, пшениці, ячменю, кукурудзи (Sprouted Grains of Wheat, Corn, Oats & Barley Extract) , Екстракт мальви (Malva Officinalis Flower Extract) , Екстракт арніки (Arnica Montana Flower Extract) , Екстракт шафрану (Crocus Sativus (Saffron) Flower Extract) , Екстракт соняшника (Helianthus Annuus (Sunflower) Extract)",
+      "apply": ""
+    },
+    {
+      "id": "8",
+      "name": "Фітотонік",
+      "picture": "assets/images/prod1.jpg",
+      "price": [200],
+      "description": "Дивно м'яка композиція фітотоніка із запашних квіткових вод та рослинних екстрактів тонізує, зволожує й освіжає шкіру. Відновлює гідроліпідний баланс, попереджає виникнення сухості і стягнутості, усуває почервоніння і подразнення. Нормалізує рівень РН, дає шкірі пружність, життєву енергію, надовго залишаючи відчуття прохолоди та свіжості після нанесення.",
+      "size": [100],
+      "ingradients": ["6", "17", "21"],
+      "composition": "Вода очищена (Aqua) , Віджимання з Сакської грязі (Saky Mud Extract) , Запашна вода герані (Geranium Leaf / Flower Water) , Запашна вода лайму (Citrus Aurantifolia (Lime) Fruit Water) , Запашна вода іланг-ілангу (Cananga Odorata (Ylang-Ylang) Flower Water) , Запашна вода розмарину (Rosmarinus Officinalis Flower / Leaf / Stem Water) , Рослинний гліцерин (Glycerin) , Екстракт пророслих зерен вівса, пшениці, ячменю, кукурудзи (Sprouted Grains of Wheat, Corn, Oats & Barley Extract) , Екстракт огірка (Cucumis Sativus Fruit Extract) , Екстракт мальви (Malva Officinalis Flower Extract) , Екстракт бузини (Sambucus Nigra Fruit Extract) , Екстракт арніки (Arnica Montana Flower Extract) , Екстракт плющу (Hedera Helix (Ivy) Leaf / Stem Extract) , Харчовий консервант Optiphen BD (Optiphen BD (food preservative)) , Алантоїн рослинний (Symphytum Officinale (Comfrey) Root Cell Extract)",
+      "apply": "Нанести маску рівним шаром 1-2 мм на очищену шкіру обличчя, шиї та декольте. Через 20-30 хвилин видалити залишки косметичною серветкою, ватним диском або змити водою. При необхідності нанести зволожуючий засіб. Використовувати 1-2 рази на тиждень. Уникати попадання маски на слизові оболонки губ та очей."
+    }
+	]
+}

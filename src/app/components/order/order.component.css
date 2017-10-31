@@ -1,0 +1,129 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.4s; }
+
+.main {
+  position: fixed;
+  background: #efefef;
+  background-image: url("../../../assets/images/backing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  z-index: 1000;
+  top: 17%;
+  bottom: 6%;
+  left: 18%;
+  right: 18%;
+  text-align: justify;
+  overflow: hidden;
+  border-radius: 30px;
+  padding: 5%;
+  padding-top: 45px;
+  -webkit-box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69);
+  -moz-box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69);
+  box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69); }
+  .main h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #5d1263;
+    margin-bottom: 20px; }
+  .main span {
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    font-size: 23px; }
+    .main span:hover {
+      cursor: pointer;
+      color: #9a9898; }
+  .main hr {
+    color: #999;
+    height: 1px;
+    clear: both;
+    background-image: url("../../../assets/images/hr1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center top;
+    border-style: none; }
+  .main .table {
+    width: 100%; }
+    .main .table header {
+      width: 100%; }
+      .main .table header p {
+        font-family: FuturaLightC;
+        display: inline-block;
+        width: 10%; }
+      .main .table header #title {
+        width: 70%; }
+    .main .table .body {
+      height: 260px;
+      overflow: auto; }
+      .main .table .body .product {
+        width: 100%; }
+        .main .table .body .product span {
+          left: 0;
+          position: relative;
+          display: inline-block;
+          vertical-align: middle;
+          font-size: 15px;
+          color: #5d1263; }
+          .main .table .body .product span:hover {
+            cursor: pointer;
+            color: #949494; }
+        .main .table .body .product img {
+          height: 100px;
+          width: 100px;
+          vertical-align: middle;
+          margin-left: 20px; }
+        .main .table .body .product .name {
+          width: 51%;
+          display: inline-block;
+          vertical-align: middle; }
+          .main .table .body .product .name p {
+            font-family: FuturaMediumC;
+            text-transform: uppercase;
+            font-size: 16px;
+            display: inline-block; }
+        .main .table .body .product .count {
+          width: 10%;
+          text-align: center;
+          display: inline-block;
+          vertical-align: middle; }
+          .main .table .body .product .count span {
+            display: block; }
+          .main .table .body .product .count input {
+            width: 30px;
+            height: 18px;
+            text-align: center; }
+        .main .table .body .product h4 {
+          width: 10%;
+          text-align: center;
+          display: inline-block;
+          vertical-align: middle; }
+  .main .footer .finalprice {
+    width: 100%;
+    text-align: right; }
+    .main .footer .finalprice h4 {
+      display: inline-block;
+      font-family: FuturaDemiC; }
+  .main .footer button {
+    width: 30%;
+    height: 30px;
+    background-color: #ffbfeb;
+    border-width: 1px;
+    text-transform: uppercase;
+    font-family: FuturaDemiC;
+    border-radius: 30px;
+    margin-left: 70%; }
+    .main .footer button:hover {
+      background-color: #5d1263;
+      cursor: pointer; }
+    .main .footer button a {
+      color: black;
+      text-decoration: none; }
+      .main .footer button a:hover {
+        color: white; }
+
+/*# sourceMappingURL=order.component.css.map */

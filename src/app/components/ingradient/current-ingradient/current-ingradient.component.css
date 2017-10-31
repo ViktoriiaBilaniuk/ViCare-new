@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.2s linear; }
+
+.main {
+  position: fixed;
+  background: #efefef;
+  background-image: url("../../../../assets/images/backing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  z-index: 1000;
+  top: 17%;
+  bottom: 3%;
+  left: 18%;
+  right: 18%;
+  text-align: justify;
+  overflow: auto;
+  border-radius: 30px;
+  padding: 5%;
+  -webkit-box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69);
+  -moz-box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69);
+  box-shadow: 9px 7px 20px 0px rgba(222, 222, 222, 0.69); }
+  .main span {
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    font-size: 23px; }
+    .main span:hover {
+      cursor: pointer;
+      color: #9a9898; }
+  .main .name {
+    text-align: center;
+    margin-bottom: 27px;
+    font-size: 18px;
+    font-family: FuturaMediumC;
+    color: #5d1263; }
+  .main .description {
+    font-family: FuturaLightC;
+    text-indent: 10px;
+    line-height: 1.25; }
+
+/*# sourceMappingURL=current-ingradient.component.css.map */
