@@ -1,4 +1,6 @@
-<div class="menu" (window:resize)="onResize($event)" [ngStyle]="{'display': close? 'flex' : 'none'}">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<div class="menu">
   <a class="logo" href="/main/"><img src="assets/images/logo.jpg" alt="logo"></a>
   <nav>
     <a [routerLink]="['/catalog']">каталог</a>
@@ -8,16 +10,15 @@
   </nav>
   <a (click)="openOrder()">
     <button class="backet">
-      <img src="assets/images/cart.jpg" alt="cart">
+      <i class="material-icons">&#xE8CC;</i>
       <span id="count"> {{orderService.order.products.length}}</span>
     </button>
     <label>Товарів у вашій корзині: {{orderService.order.products.length}}</label>
   </a>
   <app-order (close)="openOrder()" [ngStyle]="{'display': visibility? 'block' : 'none'}"></app-order>
-
 </div>
 
-
+<!--
 <div class="mobile-menu-bar" (window:resize)="onResize($event)" [ngStyle]="{'display': !close? 'flex' : 'none'}">
   <a class="mobile-bar-logo" href="/main/"><img src="assets/images/logo.jpg" alt="logo"></a>
 
@@ -43,6 +44,6 @@
   </nav>
   <app-order (close)="openOrder()" [ngStyle]="{'display': visibility? 'block' : 'none'}"></app-order>
 
-</div>
+</div>-->
 
 

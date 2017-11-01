@@ -1,3 +1,4 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @font-face {
   font-family: "FuturaBookC";
   src: url("assets/fonts/futura/FuturaBookC.ttf") format("ttf"); }

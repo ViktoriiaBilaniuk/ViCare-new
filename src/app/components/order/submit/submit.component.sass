@@ -48,83 +48,91 @@ $grey: #e1e1e1
         width: 47%
         .group
           position: relative
-          margin-top: 28px
-          input
-            font-size: 18px
-            padding: 10px 10px 10px 5px
-            display: block
+          & .mat-form-field-underline
+            height: 0px
+          .mat-form-field
             width: 100%
-            border: none
-            border-radius: 3px
-          label
-            display: block
-            color: #999
-            pointer-events: none
-            font-family: FuturaBookC
-            font-size: 18px
-            font-weight: normal
-            position: absolute
-            left: 5px
-            top: 10px
-          input:focus ~ label, input:valid ~ label
-            top: -20px
-            font-size: 14px
-            color: $violet
 
-          .bar
-            position: relative
-            display: block
-            width: 100%
-          .bar:before, .bar:after
-            content: ''
-            height: 2px
-            width: 0
-            bottom: 1px
-            position: absolute
-            background: $violet
-          .bar:after
-          input:focus ~ .bar:before, input:focus ~ .bar:after
-            width: 100%
-            transition: 0.2s all
+          .address .mat-form-field-wrapper
+              padding-bottom: 0em
 
-        #labelForDropdown
-          margin: 10px 0px 0px 5px
-          font-family: FuturaBookC
-          display: block
-          font-size: 14px
-          color: $violet
-          position: absolute
 
-        #dropdown
-          height: 41.6px
-          background: white
-          &:hover
-            cursor: pointer
-          label
-            position: relative
-            pointer-events: auto
-            &:focus
-              cursor: pointer
-          ul
-            display: none
-            position: absolute
-            cursor: pointer
-            background: white
-            margin-top: 20px
-            width: 620px
-            text-align: left
-            list-style: none
-            padding-left: 20px
-            z-index: 10
-            li
-              color: #5d1263
-              padding: 6px
-              border-top: 1px solid rgba(128, 128, 128, 0.11)
-          select
-            padding-top: 25px
-            width: 100%
-            border: none
-            border-radius: 3px
+        //  input
+        //    font-size: 18px
+        //    padding: 10px 10px 10px 5px
+        //    display: block
+        //    width: 100%
+        //    border: none
+        //    border-radius: 3px
+        //  label
+        //    display: block
+        //    color: #999
+        //    pointer-events: none
+        //    font-family: FuturaBookC
+        //    font-size: 18px
+        //    font-weight: normal
+        //    position: absolute
+        //    left: 5px
+        //    top: 10px
+        //  input:focus ~ label, input:valid ~ label
+        //    top: -20px
+        //    font-size: 14px
+        //    color: $violet
+        //
+        //  .bar
+        //    position: relative
+        //    display: block
+        //    width: 100%
+        //  .bar:before, .bar:after
+        //    content: ''
+        //    height: 2px
+        //    width: 0
+        //    bottom: 1px
+        //    position: absolute
+        //    background: $violet
+        //  .bar:after
+        //  input:focus ~ .bar:before, input:focus ~ .bar:after
+        //    width: 100%
+        //    transition: 0.2s all
+        //
+        //#labelForDropdown
+        //  margin: 10px 0px 0px 5px
+        //  font-family: FuturaBookC
+        //  display: block
+        //  font-size: 14px
+        //  color: $violet
+        //  position: absolute
+        //
+        //#dropdown
+        //  height: 41.6px
+        //  background: white
+        //  &:hover
+        //    cursor: pointer
+        //  label
+        //    position: relative
+        //    pointer-events: auto
+        //    &:focus
+        //      cursor: pointer
+        //  ul
+        //    display: none
+        //    position: absolute
+        //    cursor: pointer
+        //    background: white
+        //    margin-top: 20px
+        //    width: 620px
+        //    text-align: left
+        //    list-style: none
+        //    padding-left: 20px
+        //    z-index: 10
+        //    li
+        //      color: #5d1263
+        //      padding: 6px
+        //      border-top: 1px solid rgba(128, 128, 128, 0.11)
+        //  select
+        //    padding-top: 25px
+        //    width: 100%
+        //    border: none
+        //    border-radius: 3px
 
       .second
         width: 47%

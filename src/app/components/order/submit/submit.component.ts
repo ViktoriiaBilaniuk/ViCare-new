@@ -2,6 +2,7 @@ import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {OrderService} from "../../../services/order.service";
 import {OrderedProduct} from "../../../models/orderedProduct";
 import {Location} from "@angular/common";
+import {FormControl, Validators} from "@angular/forms";
 
 @Component({
   selector: 'app-submit',
@@ -31,6 +32,9 @@ export class SubmitComponent implements OnInit {
     }
   ]
   @Output() close = new EventEmitter();
+
+
+  emailFormControl = new FormControl('', Validators.required);
 
   constructor(private orderService: OrderService, private location: Location) { }
 

@@ -2,22 +2,22 @@
   <form id="callback" #form="ngForm" action="" (ngSubmit)="saveData(form.value)">
     <p>Напишіть нам!</p>
     <div class="group">
-      <input type="text" name="name" [(ngModel)]="name" required  maxlength="30">
+      <input type="text" name="name" #Name="ngModel" [(ngModel)]="name" required  maxlength="30">
       <span class="bar"></span>
       <label>Ім'я Прізвище</label>
     </div>
     <div class="group">
-      <input  type="email" name="email" [(ngModel)]="email" required  maxlength="30">
+      <input  type="email" name="email" #Email="ngModel"  [(ngModel)]="email" required  maxlength="30">
       <span class="bar"></span>
       <label>Пошта</label>
     </div>
     <div class="group">
-      <input type="text" name="message"  [(ngModel)]="message" required maxlength="1000">
+      <input type="text" name="message" #Message="ngModel"  [(ngModel)]="message" required maxlength="1000">
       <span class="bar"></span>
       <label>Ваше повідомлення...</label>
     </div>
     <input type="submit" #submit_btn name="submit" [disabled]="!form.valid" (click)="clickBtn($event)">
-    <div class="error_message" *ngIf="!form.valid">Заповніть усі поля!</div>
+    <div class="error_message" *ngIf="form.invalid && form.dirty" >Заповніть усі поля правильно!</div>
   </form>
   <footer>
     <div class="logo">

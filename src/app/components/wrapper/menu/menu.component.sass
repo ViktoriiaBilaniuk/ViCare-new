@@ -53,9 +53,6 @@ a:active, a:focus, a:hover, a:visited, button:focus
   .logo
     @media (max-width: $screen-md-max)
       display: none
-
-  &.close
-    display: none
   img
     width: 170px
   nav
@@ -63,11 +60,9 @@ a:active, a:focus, a:hover, a:visited, button:focus
     width: 70%
     justify-content: center
     margin: 0 100px
-
     @media (max-width: $screen-xl-max)
       margin: 0 20px
       width: 60%
-
     a
       justify-content: space-between
       text-decoration: none
@@ -83,6 +78,8 @@ a:active, a:focus, a:hover, a:visited, button:focus
       cursor: pointer
     a:focus
       border-bottom: 2px solid $violet
+  .material-icons
+    color: $violet
   .backet
     background-color: transparent
     color: black

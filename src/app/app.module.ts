@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {Http, HttpModule} from '@angular/http';
 import {routing} from './app-routing.module';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {RouterModule} from '@angular/router';
 
 import { AppComponent } from './app.component';
@@ -29,6 +29,12 @@ import {IngradientService} from "./services/ingradient.service";
 import { CurrentIngradientComponent } from './components/ingradient/current-ingradient/current-ingradient.component';
 import {OrderService} from "./services/order.service";
 import { SubmitComponent } from './components/order/submit/submit.component';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {
+  MatButtonModule, MatCheckboxModule, MatFormFieldModule, MatInputModule, MatNativeDateModule, MatSelect,
+  MatSelectTrigger
+} from '@angular/material';
+
 
 @NgModule({
   declarations: [
@@ -51,14 +57,20 @@ import { SubmitComponent } from './components/order/submit/submit.component';
     CompositionComponent,
     AdviceComponent,
     CurrentIngradientComponent,
-    SubmitComponent
+    SubmitComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     RouterModule,
     HttpModule,
-    routing
+    routing,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatNativeDateModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
   ],
   providers: [CategoryService, ProductsService, IngradientService, OrderService],
   bootstrap: [AppComponent]
